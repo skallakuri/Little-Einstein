@@ -1,0 +1,62 @@
+<a href="pages/page1.html">Link to ScriptEd</a>
+    
+<!doctype html>
+<head>
+  <title>Portfolio Page</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="script.js"></script>
+  <script type="text/javascript">
+    var firstName = document.getElementById("fname");
+    var lastName = document.getElementById("lname");
+    var carpool = document.getElementById("carpool");
+    var Hours = document.getElementById("hours");
+    var Age = document.getElementById("age");
+    var Vehicles = document.getElementById("number");
+    
+      
+    document.getElementById('result').innerHTML = lastName;
+    
+    
+    
+  </script>
+</head>
+<body>
+  <form method="get" action="carbon.html">
+    <label> First Name </label> <input type="text" name="fname" id="fname"> <br>
+    
+    Last Name <input type="text" name="lname" id="lname"> <br>
+    
+    Carpool <input type="radio" name="carpool" id="carpool" value="yes"> Yes <br>
+    <input type= "radio" name="carpool" id="carpool" value="no"> No <br>
+    
+    How many hours, per day, do you drive?<select id="hours">
+      <option value="lt1"><1</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="gt4">>4</option>
+    </select><br>
+    
+    Age of Vehicle <select id="age">
+        <option value="cy">Current Year</option>
+        <option value="5">1-5 years</option>
+        <option value="10">6-10</option>
+        <option value="15">11-15</option>
+        <option value="20">16-20</option>
+        <option value="25">21-25</option>
+        <option value="gt25">>25</option>
+      </select><br>
+    
+    Number of Vehicles <input type="radio" name="number" id="number" value="0"> 0 <br>
+    <input type= "radio" name="number" id="number" value="1"> 1 <br>
+    <input type= "radio" name="number" id="number" value="2"> 2 <br>
+    <input type= "radio" name="number" id="number" value="3"> 3 <br> 
+<br>
+    
+    <input type="submit" name="submit" value="Submit">
+  </form>
+  
+  <p id="result"></p>
+</body>

@@ -1,28 +1,33 @@
-    header {
+    #main {
       text-align: center;
-      background: url("http://wallpapercave.com/wp/NDNyy9Q.jpg"); 
-      background-size {
-          length: 1000px;
-          width:1000px;
-      } ;
-      color: white;
-    }
+      /*background: url("https://thumbs.dreamstime.com/t/blue-blossom-olive-green-background-16712406.jpg"); 
+      background-size: 100%;*/
+      
+    } 
     .nav {
-      color: white;
+      color: #1a3300;
     }
     h1 {
       font-size: 70px;
       font-family: georgia;
-      color: red;
+      color:#660000;
+    }
+   
+    p{
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+      
     }
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;
+      color: blue;
     }
     ul {
       padding: 10px;
-      background: rgb(170, 0, 0);
       font-family: georgia;
     }
     li {
@@ -35,10 +40,11 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-      h1 {
+      /*h1 {
         font-size: 36px;
         padding: 5px;
-      }
+        color: #266b73;
+      }*/
       li {
         padding: 5px;
         display: block;
