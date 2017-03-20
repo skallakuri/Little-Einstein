@@ -4,6 +4,7 @@
       color:#660000;
       font-family: optima;
       font-weight: bold;
+      float: inherit;
     }
     ul{
       color: #66000;
@@ -14,6 +15,8 @@
       color: #660000;
       font-size: normal;
       font-size: larger;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     
  /*body{
