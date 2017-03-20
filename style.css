@@ -1,17 +1,21 @@
-    #main {
-      text-align: center;
-      font-family: optima;
-    
-    .nav {
-      color: #1a3300;
-      
-    }  
-    }
-    h1 {
+
+  h1 {
       font-size: 70px;
       color:#660000;
       font-family: optima;
+      font-weight: bold;
     }
+    ul{
+      color: #66000;
+    }
+   body {
+      text-align: center;
+      font-family: optima;
+      color: #660000;
+      font-size: normal;
+      font-size: larger;
+    }
+    
  /*body{
     background-image: url("images/pages/tree.jpg");
     background-repeat: no-repeat;
