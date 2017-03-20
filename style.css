@@ -1,31 +1,37 @@
     #main {
       text-align: center;
-      /*background: url("https://thumbs.dreamstime.com/t/blue-blossom-olive-green-background-16712406.jpg"); 
-      background-size: 100%;*/
-      
-    } 
+      font-family: optima;
+    
     .nav {
       color: #1a3300;
+      
+    }  
     }
     h1 {
       font-size: 70px;
-      font-family: georgia;
       color:#660000;
+      font-family: optima;
     }
-   
+ /*body{
+    background-image: url("images/pages/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    }*/
     p{
+      color: white;
       text-align: center;
     }
     h2{
       text-align: center;
       
     }
-    img {
+    /*img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;
       color: blue;
-    }
+    }*/
     ul {
       padding: 10px;
       font-family: georgia;
