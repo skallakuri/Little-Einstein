@@ -1,13 +1,4 @@
-
-  h1 {
-      font-size: 70px;
-      color:#660000;
-      font-family: optima;
-      font-weight: bold;
-  }
-  body{
-    color: #66000;
-  }
+  
     ul{
       color: #66000;
     }
@@ -19,6 +10,9 @@
       font-size: larger;
       background-repeat: no-repeat;
       background-size: cover;
+      p{
+        color: #66000;
+        }
     }
     
  /*body{
