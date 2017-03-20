@@ -4,8 +4,10 @@
       color:#660000;
       font-family: optima;
       font-weight: bold;
-      float: inherit;
-    }
+  }
+  body{
+    color: #66000;
+  }
     ul{
       color: #66000;
     }
