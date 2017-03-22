@@ -2,15 +2,20 @@
     ul{
       color: #66000;
     }
+   h1{
+        font-size: 60px;
+      }
    #smiley {
       text-align: center;
       /*font-family: h1 {*/
-	    font-family:  "Calibri";
+	    font-family: "Calibri";
       color: black;
       background-image:url("images/pages/TREEZZZ.png");
       background-repeat: no-repeat;
       background-size: cover;
       font-size: 25px;
+      float: none;
+      padding: 10px;
       }
       
     

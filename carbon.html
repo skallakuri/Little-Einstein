@@ -30,32 +30,38 @@
     
     var result = (carpool*hrs*age*vehicles*pt)/0.125;
     
-    if (result < 2000){
+    if (result < 1000){
       var level = 1;
     }
-    else if (result>=2000 && result<4000){
+    else if (result>=1000 && result<2000){
       var level = 2;
     } 
-    else if (result>=4000 && result<6000){
+    else if (result>=2000 && result<3000){
       var level = 3;
     }
-    else if (result>=6000 && result<8000){
+    else if (result>=3000 && result<5000){
       var level = 4;
     }
-    else if (result>=8000 && result<10000){
+    else if (result>=5000 && result<7000){
       var level = 5;
     }
-    else if (result>=10000 && result<20000){
+    else if (result>=7000 && result<9000){
       var level = 6;
     }
-    else if (result>=20000 && result<30000){
+    else if (result>=9000 && result<12000){
       var level = 7;
     }
-    else if (result>=30000 && result<40000){
+    else if (result>=12000 && result<18000){
       var level = 8;
     }
-    else if (result==40000){
+    else if (result>=18000 && result<20000){
       var level = 9;
+    }
+    else if (result>=20000 && result<40000){
+      var level = 10
+    }
+    else if (result==40000){
+      var level = 11;
     }
     var output1 = document.getElementById("output");
    // output1.innerHTML = "Hello "+firstName.value+" "+lastName.value+" "+carpool+" "+pt+" "+hrs+" "+age+" "+vehicles+" "+result;
@@ -64,15 +70,16 @@
   }
   </script>
 </head>
+<h1> Carbon-Footprint-O-Meter </h1>
 <body id="smiley">
-  <head> Carbon-Footprint-O-Meter </head>
+  
   <form>
     <label> First Name </label> <input type="text" name="fname" id="fname"> <br>
-    
-    Last Name <input type="text" name="lname" id="lname"> <br>
+    Last Name <input type="text" name="lname" id="lname"> <br><br>
     
     Carpool <br> <input type="radio" name="carpool" id="yes" value="1"> Yes <br>
-    <input type= "radio" name="carpool" id="no" value="5"> No <br>
+    <input type= "radio" name="carpool" id="no" value="5"> No 
+    <br><br>
     
     How many hours, per day, do you drive?<select id="hours">
       <option value="0.5">30 min</option>
@@ -81,7 +88,7 @@
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5</option>
-    </select><br>
+    </select><br><br>
     
     Average Age of Vehicle (Rounded to nearest whole number) <select id="age">
         <option value="0.5">Current Year</option>
@@ -95,7 +102,7 @@
         <option value="8">8</option>
         <option value="9">9</option>
         <option value="10">10</option>
-      </select><br>
+      </select><br><br>
     
     Number of Vehicles <select id="num"> <br>
         <option value="0.5">0</option>
@@ -103,9 +110,8 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-</select> <br>
-<br>
-    
+</select> <br><br>
+
     Public Transportation <br> <input type="radio" name="pt" id="ptYes" value="1" required> Yes <br>
     <input type="radio" name="pt" id="ptNo" value="5"> No <br>
     
