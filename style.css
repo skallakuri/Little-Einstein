@@ -2,14 +2,17 @@
     ul{
       color: #66000;
     }
-   body {
+   #smiley {
       text-align: center;
       font-family: optima;
       color: black;
+      background-image:url("images/pages/TREEZZZ.png");
       background-repeat: no-repeat;
       background-size: cover;
       font-size: 25px;
       }
+      
+    
     
  /*body{
     background-image: url("images/pages/tree.jpg");
