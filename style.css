@@ -4,7 +4,8 @@
     }
    #smiley {
       text-align: center;
-      font-family: optima;
+      /*font-family: h1 {*/
+	    font:  "Optima";
       color: black;
       background-image:url("images/pages/TREEZZZ.png");
       background-repeat: no-repeat;
